@@ -6,6 +6,8 @@ import (
 	"chapters/ch4/dates"
 )
 
+// this is some documentation
+// this is some info
 func main() {
 	days := 3
 	fmt.Println("Your appointment is in", days, "days")
