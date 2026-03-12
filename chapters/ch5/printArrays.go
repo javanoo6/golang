@@ -13,7 +13,7 @@ func main() {
 	fmt.Printf("%#v\n", notes) // when using %#v" arrays printed as literals of arrays of Go
 	fmt.Printf("%#v\n", primes)
 
-	notesLiteral := [7]string{"do", "re", "mi", "fa", "so", "la", "ti"}
+	notesLiteral := [7]string{"do", "re", "mi", "fa", "so", "la", "si"}
 	index := 1
 	fmt.Println(index, notesLiteral[index])
 	index = 3
