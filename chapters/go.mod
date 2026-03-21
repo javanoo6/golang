@@ -3,8 +3,11 @@ module chapters
 go 1.25.6
 
 require (
-	github.com/headfirstgo/keyboard v0.0.0-20170926053303-9930bcf72703 // indirect
+	github.com/headfirstgo/calendar v0.0.0
+	github.com/headfirstgo/greeting v0.0.0-20190504033635-66e7507184ee
 	github.com/headfirstgo/magazine v0.0.0
 )
 
 replace github.com/headfirstgo/magazine => ../src/github.com/headfirstgo/magazine
+
+replace github.com/headfirstgo/calendar => ../src/github.com/headfirstgo/calendar
